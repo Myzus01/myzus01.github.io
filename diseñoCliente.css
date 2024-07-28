@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background: url(https://img.freepik.com/vector-premium/diseno-fondo-tematica-fruta-naranja-sobre-fondo-naranja-tonos-naranja-estilos_610474-86.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+.banner {
+    background-color: rgba(55, 55, 55, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.logo img {
+    width: 90px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    bottom: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.bienvenida {
+    background-color: #1B1B1B;
+    margin: 100px;
+    height: 550px;
+    width: 700px;
+    padding-block: 5%;
+    border-radius: 15px;
+}
+
+.bienvenida .encabezado {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    display: flex;
+    padding-left: 15%;
+}
+
+.bienvenida strong {
+    font-size: 30px;
+    padding-left: 2%;
+}
+
+
+.bienvenida .parrafo {
+    color: white;
+    font-size: 70%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.bienvenida a {
+    width: 70%;
+    height: 10%;
+    background: linear-gradient(to right, #C27A1E, #FEA521 50%, #C27A1E);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    margin: 7% auto;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bienvenida .dudas {
+text-align: center;
+
+color: white;
+font-size: 70%;
+}
+

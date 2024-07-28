@@ -1,0 +1,114 @@
+body, html {
+    background-image: url(https://img.freepik.com/vector-premium/diseno-fondo-tematica-fruta-naranja-sobre-fondo-naranja-tonos-naranja-estilos_610474-86.jpg);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.formularioInicioSesion {
+    
+    background: #1B1B1B;
+    padding-block-start: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-block-end: 4%;
+    border-radius: 15px;
+   
+}
+
+.formularioInicioSesion h1 {
+    font-weight: 700;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 3%;
+
+}
+
+.formularioInicioSesion h2 {
+    font-weight: 200;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D1D1D1;
+
+}
+
+.formularioInicioSesion label {
+    font-weight: 400;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.formularioInicioSesion input {
+    height: 30px;
+    width: 270px;
+    border: orange solid;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: #383838;
+    color: white;
+
+}
+
+.formularioInicioSesion .login .button {
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 278px;
+    background: linear-gradient(to right, #c77700, orange 60%);
+    font-size: 130%;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formularioInicioSesion h3 {
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    color: #D1D1D1;
+    text-align: center;
+
+
+}
+
+.formularioInicioSesion h3 a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 60;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    background-color: #383838;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 16px;
+    width: 278px;
+
+}
+
+strong {
+    color: white;
+}
+

@@ -1,0 +1,177 @@
+body, html {
+    background-image: url(https://img.freepik.com/vector-premium/diseno-fondo-tematica-fruta-naranja-sobre-fondo-naranja-tonos-naranja-estilos_610474-86.jpg);
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.formularioRegistro {
+    background-color: #1B1B1B;
+    height: 650px;
+    width: 700px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.formularioRegistro h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.formularioRegistro label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    text-align: right;
+}
+
+.formularioRegistro input {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    border: orange solid;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #3a3a3a;
+    width: 180px;
+}
+
+.formularioRegistro button {
+    border-radius: 5px;
+    border-style: none;
+    background: linear-gradient(to right, #c77700, orange 60%);
+    color: white;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 175px;
+    width: 350px;
+    height: 60px;
+}
+
+.formularioRegistro select {
+    position: relative;
+    left: 45px;
+    top: 21px;
+    border: orange solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #3A3A3A;
+    height: 38px;
+}
+
+
+#nombre {
+    position: relative;
+    left: 77px;
+}
+
+#apellido {
+    position: relative;
+    left: 148px;
+}
+
+#telefono {
+    position: relative;
+    left: 151px;
+}
+
+#label-contraseña {
+    position: relative;
+    left: 110px;
+}
+
+
+#contraseña {
+    position: relative;
+    left: 130px;
+}
+
+#label-direccion {
+    position: relative;
+    left: 100px;
+}
+
+#direccion {
+    position: relative;
+    left: 116px;
+}
+
+#label-telefono {
+    position: relative;
+    left: 130px;
+}
+
+#label-apellido {
+    position: relative;
+    left: 132px;
+}
+
+
+
+.formularioRegistro p {
+    position: relative;
+    left: 250px;
+    color: rgb(172, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    font-size: 12px;
+}
+
+.formularioRegistro a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#label-identificacion {
+    position: relative;
+    left: 40px;
+    text-align: right;
+}
+
+#ciudad {
+    position: relative;
+    left: 83px;
+}
+
+#label-nombre, #label-ciudad, #label-correo {
+    position: relative;
+    left: 60px;
+}
+
+#identificacion {
+    position: relative;
+    width: 108px;
+    left: 55px;
+}
+
+#correo {
+    position: relative;
+    left: 85px;
+}
+
+.bienvenida {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 206, 206);
+    font-weight: 5;
+    font-size: 12px;
+    position: relative;
+    left: 50px;
+}

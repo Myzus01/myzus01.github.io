@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - MaxiBoli</title>
+    <link rel="stylesheet" href="diseñoHome.css">
+    <link rel="stylesheet" href="Cliente.html">
+</head>
+<body>
+    <div class="formularioInicioSesion">
+        <form id="iniciarSesion">
+            <h1>Inicio de sesión</h1><br>
+            <h2>Inicia sesión en <strong>MaxiBoli ByGourmet.</strong></h2><br><br>
+            <label for="correoElectronico">Correo</label><br><br>
+            <input type="email" id="correoElectronico" name="correoElectronico" required><br><br><br>
+
+            <label for="contrasena">Contraseña</label><br><br>
+            <input type="password" id="contrasena" name="contrasena" required><br><br><br>
+
+            <label for="rol">Selecciona tu rol<br></label><br>
+            <select id="rol" name="rol">
+                <option value="cliente">Cliente</option>
+                <option value="admin">Administrador</option>
+                <option value="empleado">Empleado</option>
+            </select>
+            <br><br><br>
+
+            <div class="login">
+                <a href="Cliente.html" class="button">Iniciar sesión</a>
+            <h3>¿Aún no tienes cuenta? <strong><a href="Registro.html">Registrate acá.</a></strong></h3>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>
